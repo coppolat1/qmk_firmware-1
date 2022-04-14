@@ -79,3 +79,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // test all keys before further adjustment.
 // this should probably stay in the range +/-5.
 // #define ACTUATION_DEPTH_ADJUSTMENT 0
+
+// Time between cursor movements in milliseconds - default is 20
+#define MOUSEKEY_DELAY        20
+// Time until maximum cursor speed is reached - default is 30
+#define MOUSEKEY_TIME_TO_MAX  100
